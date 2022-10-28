@@ -1,6 +1,14 @@
-h2{
-    background-color: aqua;
+h1{
+    background-color: #4ab4cb;
     text-align: center;
+    font-size: 100px;
+}
+
+h2{
+    background-color: #4fa527;
+    background-size: cover;
+    text-align: center;
+    font-size: 50px;
 }
 .btn btn-primary{
     align-content: center;
