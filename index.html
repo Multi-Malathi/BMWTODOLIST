@@ -13,11 +13,16 @@
   <title>Document</title>
 </head>
 <body>
+
+  <nav class="navbar navbar-light d-flex justify-content-end" style="background-color:aliceblue;">
+    <a class="SignUp" href="#">Sign up</a>
+ </nav>
+
   <div class="container">
-    <h2> To Do List</h2>
+    <h2>My TO-DO List</h2>
     <!-- Button to Open the Modal -->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-      Create Task
+      <p>Create New Task</p>
     </button>
   
     <!-- The Modal -->
@@ -27,75 +32,51 @@
         
           <!-- Modal Header -->
           <div class="modal-header">
-            <h4 class="modal-title">Create Task</h4>
+            <h4 class="modal-title">Add Tasks</h4>
             <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
           
           <!-- Modal body -->
           <div class="modal-body">
-            <label for="task">Task</label>
-            <input type="text" class="task1" id="task" placeholder="text" name="Task"></br>
+            <label for="Task">Name</label>
+            <input type="text" class="Task" id="Task" placeholder="text" name="Task">
+          <br>
             <label for="Des">Description:</label>
-            <input type="textarea" class="des" id="des" name="des"></br>
+            <input type="textarea" class="des" id="des" name="des">
+          <br>
             <label for="assto">Assigned To</label>
             <select class="selectpicker">
-            <option>Jim</option>
-            <option>Nana</option>
+            <option></option>
+            <option>Malathi</option>
+            <option>Goma</option>
             <option>Renjima</option>
-          </select></div>
-          
-        <label for="Due date">Due date:</label>
-         <input type="date" id="dd" name="dd">
-      </div>
-          
-          
+            <option>Andy</option>
+            </select>
+          <br>
+            <label for="Due date">Due date:</label>
+            <input type="date" id="dd" name="dd">
+          <br>
+            <label for="Situation">Status</label>
+            <select class="Whatgoon">
+            <option></option>
+            <option>ToDo</option>
+            <option>In Proress</option>
+            <option>Review</option>
+            <option>Done</option>
+            </select>
+          </div>
+        
           <!-- Modal footer -->
           <div class="modal-footer">
             <button type="button" class="btn btn-Submit" data-toggle="modal1" data-target="#myModal1">Submit</button>
-            
-           </div>
-           <div class="modal-footer">
             <button type="button" class="btn btn-Cancel" data-dismiss="modal">Cancel</button>
           </div>
-          </div>
-           <div class="modal1" id="myModal1">
-            <div class="modal-dialog1">
-              <div class="modal-content1">
-              
-                <!-- Modal Header -->
-                <div class="modal-header1">
-                  <h4 class="modal-title1">Create Task</h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                
-                <!-- Modal body -->
-                <div class="modal-body">
-                  <label for="task">Task</label>
-                  <input type="text" class="task1" id="task" placeholder="text" name="Task"></br>
-                  <label for="Des">Description:</label>
-                  <input type="textarea" class="des" id="des" name="des"></br>
-                  <label for="assto">Assigned To</label>
-                  <div class="dropdown">
-                 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"></br>
-                
-                 </button></br>
-              <div class="dropdown-menu">
-                <a class="dropdown-item">Jim</a>
-                <a class="dropdown-item">Nana</a>
-                <a class="dropdown-item">Renjima</a>
-              </div>
-              <label for="Due date">Due date:</label>
-               <input type="date" id="dd" name="dd">
-            </div>
-                
-          </div>
-          
+     
         </div>
       </div>
-     </div>
+     
     </div>
   </div>
-  </div>
-  
+
 </body>
 </html>
