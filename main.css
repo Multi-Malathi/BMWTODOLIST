@@ -48,6 +48,15 @@
     user-select: none;
   }
 
-  
+  .currentTasksContainer{
+    margin-top: 5%;
+  }
+
+  .taskColumns{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1%;
+    text-align: center;
+  }
 
 
