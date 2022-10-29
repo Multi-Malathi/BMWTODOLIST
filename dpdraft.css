@@ -1,0 +1,35 @@
+body {
+    background-color: #fcfcfc;
+    color: #db6363;
+    text-align: center;
+  }
+
+header {
+    background-color: green;
+    font-family: Georgia, 'Times New Roman';
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.container {
+    background-color: white;
+}
+.box {
+    color: black;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #db6363;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 16px;
+    letter-spacing: 0.4px; 
+}
+  
