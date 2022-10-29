@@ -59,4 +59,26 @@
     text-align: center;
   }
 
+  .columns{
+    text-align: center;
+  }
+
+  h4{
+    margin: 0;
+  }
+
+  .columnHeaders{
+    width: 25%;
+    height: 100%;
+    background-color: darkcyan;
+    color: aliceblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 1px solid aliceblue;
+    border-radius: 4px;
+  }
+
 
