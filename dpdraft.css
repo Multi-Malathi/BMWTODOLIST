@@ -32,4 +32,39 @@ footer {
     font-size: 16px;
     letter-spacing: 0.4px; 
 }
-  
+
+.name {
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.3px;
+     
+}
+
+.description{
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.3px;
+}
+
+.assignto {
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.3px;
+}
+
+.duedate{
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.3px;
+}
+
+.status{
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.3px;
+}
