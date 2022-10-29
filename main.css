@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+html{
+  font-size: 12px;
+}
 .navbar{
     background-color:aliceblue
 }
@@ -54,9 +56,10 @@
 
   .taskColumns{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-gap: 1%;
     text-align: center;
+    margin: 2% 5%;
   }
 
   .columns{
@@ -69,16 +72,26 @@
 
   .columnHeaders{
     width: 25%;
-    height: 100%;
     background-color: darkcyan;
     color: aliceblue;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border: 1px solid aliceblue;
     border-radius: 4px;
+  }
+
+  .columnCardBody{
+    width: 100%;
+  }
+
+  .cards{
+    width: 100%;
+    border: 2px solid darkcyan;
+    overflow: scroll;
+    height: 200px;
   }
 
 
