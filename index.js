@@ -10,9 +10,7 @@ let btnSub = document.getElementById("submitBtn");
 let myName = document.getElementById('writeName');
 let myDescription = document.getElementById('checkDescription');
 let myAssignedto = document.getElementById('assignedto');
-
 let myDate =document.getElementById('dDate');
-
 
 btnSub.addEventListener("click", validateBox);
 function validateBox() {
