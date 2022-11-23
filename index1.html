@@ -24,31 +24,25 @@
           </div>
           <div class="panel-body">
             <form>
+
                 <div class="form-group">
-                    <!--<label for="TaskName">Task Name</label>
-                    <input type="text"class="form-control" id="TaskName" required/>-->
                     <label> Name:</label>
-            <input class="Name"required/>
+                <input type="text" name= "writeName" id="writeName" >
                 </div>
+
                 <div class="form-group">
-                    <!--<label for="TaskDes">Task Description</label>
-                    <input type="textarea"class="form-control" id="TaskDes" required/>-->
                     <label>Description:</label>
-              <textarea> </textarea>
+               <textarea name="checkDescription" id="checkDescription"> </textarea>
                 </div>
+
                 <div class="form-group">
-                    <label for="AssTo">Assigned To:</label>
-                <select>
-                    <option>Name</option>
-                    <option>Andy</option>
-                    <option>Goma</option>
-                    <option>Malathi</option>
-                    <option>Renjima</option>
-                 </select> 
+                    <label >Assigned To:</label>
+                <input type="text" name="assignedto" id="assignedto"> 
                 </div>  
+
                 <div class="form-group">
                   <label for="DD">Due date:</label>
-                  <input type="date" id="DD" required>
+                  <input type="date" id="dDate" required>
                 </div>
                 <div class="form-group">
                     <label for="Status">Status:</label>
@@ -62,7 +56,7 @@
                 
                 
                 <div class="text-center">
-                  <a href="dpdraft.html" class="btn btn-primary" role="button">Submit</a>
+                  <Button class="btn btn-primary" role="button" id ="submitBtn">Submit</Button>
                   
                   <button type="button" class="btn btn-primary">Reset</button>
                 </div>
@@ -71,6 +65,7 @@
           </div>
           
           <script src="index.js"></script>
+          <script src ="task.js"></script>
 </body>
 </html>
 
