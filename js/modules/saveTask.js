@@ -2,7 +2,6 @@ import TaskManager from "../classes/TaskManager.js";
 
 function saveTask(event){
     event.preventDefault()
-    console.log("im firing")
     let name = document.getElementById('writeName').value
     let description = document.getElementById('checkDescription').value
     let assigned = document.getElementById('assignedto').value

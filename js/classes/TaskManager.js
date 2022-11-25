@@ -18,7 +18,7 @@ class TaskManager {
 
     static saveToLocal(obj){
         TaskManager.tasks.push(JSON.stringify(obj))
-        TaskManager.tasks.map(task => localStorage.setItem(TaskManager.id, JSON.stringify(task)))
+        TaskManager.tasks.map(task => localStorage.setItem(TaskManager.id++, JSON.stringify(task)))
     }
 
 
