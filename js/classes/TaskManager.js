@@ -1,5 +1,5 @@
 class TaskManager {
-    static id = localStorage.getItem("latestId") >= 0 ? localStorage.getItem("latestId") : 0
+    static id = 0
     static tasks = []
     constructor(title, description, assignedTo, dueDate, status){
         this.id = TaskManager.id++;
@@ -18,7 +18,7 @@ class TaskManager {
 
     static saveToLocal(obj){
         TaskManager.tasks.push(JSON.stringify(obj))
-        TaskManager.tasks.map(task => localStorage.setItem(task.id, JSON.stringify(task)))
+        TaskManager.tasks.map(task => localStorage.setItem(TaskManager.id, JSON.stringify(task)))
     }
 
 

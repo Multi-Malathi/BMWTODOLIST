@@ -6,7 +6,7 @@ function loadPage(){
     const tasksContainer = document.getElementById("tasksContainer")
     const form = document.getElementById("form")
     form.addEventListener("submit", (event)=>saveTask(event))
-    for (let [key, v] of Object.entries(tasks)){
+    for (let [key] of Object.entries(tasks)){
         let eachObj = JSON.parse(tasks[key])
         let parsed = JSON.parse(eachObj)
             let card = tasksContainer.appendChild(document.createElement("div"))
