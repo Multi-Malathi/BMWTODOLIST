@@ -63,3 +63,13 @@ input{
     }
     
 }
+
+#tasksContainer{
+    margin-top: 10%;;
+    text-align: center;
+    
+}
+
+#tasksHeader{
+    background-color: white;
+}
