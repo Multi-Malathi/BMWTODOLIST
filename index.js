@@ -22,7 +22,7 @@ function validateBox() {
   };
 
   if (myDescription.value == "" || myDescription.value.length < 15) {
-    alert("Length should be more than 15,rewrite please!"); 
+    alert("Length should be more than 15!Rewrite Please!"); 
     myDescription.focus();
   } else {
     alert ("All amazing!");  
@@ -30,7 +30,7 @@ function validateBox() {
 
   
   if (myAssignedto.value == "" || myAssignedto.value.length < 8) {
-    alert("Length should be more than 8,good luck"); 
+    alert("Length should be more than 8!Good Luck"); 
     myAssignedto.focus();
   } else {
     alert ("All check!");  
@@ -40,11 +40,11 @@ function validateBox() {
   let now = new Date();
   let today = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() ));
   if(inputeDate.getTime() < today.getTime()){
-    alert("date is past");
+    alert("Date is past");
   } else if(inputeDate.getTime() == today.getTime()){
-    alert("date is today");
+    alert("Date is today");
   }else{
-    alert("date is future");
+    alert("Date is future");
   }
  
 }
