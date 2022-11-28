@@ -30,7 +30,7 @@ function validateBox() {
 
   
   if (myAssignedto.value == "" || myAssignedto.value.length < 8) {
-    alert("Length should be more than 8!Good Luck"); 
+    alert("Length should be more than 8!Good Luck!"); 
     myAssignedto.focus();
   } else {
     alert ("All check!");  
