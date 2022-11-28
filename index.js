@@ -15,7 +15,7 @@ let myDate =document.getElementById('dDate');
 btnSub.addEventListener("click", validateBox);
 function validateBox() {
   if (myName.value == "" || myName.value.length < 8) {
-    alert("Length should be more than 8"); 
+    alert("Length should be more than 8!"); 
     myName.focus();
   } else {
     alert ("All good!");  
@@ -40,11 +40,11 @@ function validateBox() {
   let now = new Date();
   let today = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() ));
   if(inputeDate.getTime() < today.getTime()){
-    alert("Date is past");
+    alert("Date is past!");
   } else if(inputeDate.getTime() == today.getTime()){
-    alert("Date is today");
+    alert("Date is today!");
   }else{
-    alert("Date is future");
+    alert("Date is future!");
   }
  
 }
