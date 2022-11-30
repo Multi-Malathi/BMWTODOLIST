@@ -1,9 +1,9 @@
 class TaskManager {
-    static id = 0
+    static id =  localStorage.getItem(`TaskID`) > 0 ? localStorage.getItem('TaskID')++ : 0
     static tasks = []
-    constructor(title, description, assignedTo, dueDate, status){
+    constructor(name, description, assignedTo, dueDate, status){
         this.id = TaskManager.id++;
-        this.title = title;
+        this.name = name;
         this.description = description;
         this.assignedTo = assignedTo;
         this.dueDate = dueDate;

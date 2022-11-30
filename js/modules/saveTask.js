@@ -10,4 +10,5 @@ function saveTask(event){
     let newTask = new TaskManager(name, description, assigned, date, status)
     TaskManager.saveToLocal(newTask)
 }
+
 export default saveTask
