@@ -1,4 +1,4 @@
-import loadPage from "./modules/loadPage.js"
+import loadPage from "./JS/modules/loadPage.js"
 
 window.addEventListener("load", () => loadPage())
 

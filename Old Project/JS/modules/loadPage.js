@@ -1,5 +1,5 @@
-import TaskManager from "../classes/TaskManager.js"
-import saveTask from "./saveTask.js"
+import TaskManager from "./JS/classes/TaskManager.js"
+import saveTask from "./JS/modules/saveTask.js"
 
 function loadPage(){
     const tasks = TaskManager.getAllTasks()

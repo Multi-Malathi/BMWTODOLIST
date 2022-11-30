@@ -1,4 +1,4 @@
-import TaskManager from "../classes/TaskManager.js";
+import TaskManager from "./JS/classes/TaskManager.js";
 
 function saveTask(event){
     event.preventDefault()
