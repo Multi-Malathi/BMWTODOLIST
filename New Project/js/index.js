@@ -19,7 +19,7 @@ newTask.load();
 newTask.render();
 submitButton.addEventListener('click', (event) => {
     event.preventDefault();
-    // Validate name of person creating new task has more than 5 characters
+    // Validate name of person creating new task has more than 8 characters
     if (name2.value.length > 8) {
         name2.classList.add('is-valid');
         name2.classList.remove('is-invalid');
@@ -28,7 +28,7 @@ submitButton.addEventListener('click', (event) => {
         name2.classList.remove('is-valid');
         return false;
     };
-    // Validate description length is more than 5 characters
+    // Validate description length is more than 15 characters
     if (description.value.length > 15) {
         description.classList.add('is-valid');
         description.classList.remove('is-invalid');
@@ -37,7 +37,7 @@ submitButton.addEventListener('click', (event) => {
         description.classList.remove('is-valid');
         return false;
     };
-    // Validate name of person assigned to task has more than 5 characters
+    // Validate name of person assigned to task has more than 8 characters
     if (assignedPerson.value.length > 8) {
         assignedPerson.classList.add('is-valid');
         assignedPerson.classList.remove
